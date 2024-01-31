@@ -15,6 +15,7 @@ const User = () => {
   const error = useSelector((state) => state.user.error);
 
   const [editModal, setEditModal] = useState(false);
+  
   const [editedUser, setEditedUser] = useState({
     id: null,
     name: "",
@@ -189,6 +190,7 @@ const User = () => {
               </div>
             </div>
           )}
+          
         </div>
       </div>
     </div>
